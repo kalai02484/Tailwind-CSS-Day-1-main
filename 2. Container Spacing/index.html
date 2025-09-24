@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Container & Spacing</title>
+    <style>
+      body {
+        padding: 5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="text-center text-cyan-700 text-3xl font-bold underline">Containers and Spacing</h1>
+    <!-- Margin -->
+    <!-- https://tailwindcss.com/docs/margin -->
+    
+    <h1 class="underline text-red-800 font-extrabold text-center">Margin</h1>
+
+    <div class="bg-violet-400">
+      <div class="border bg-black text-white m-2">m-2</div>
+      <div class="border bg-black text-white mx-4">mx-4</div>
+      <div class="border bg-black text-white my-6">my-6</div>
+      <div class="border bg-black text-white mt-8">mt-8</div>
+      <div class="border bg-black text-white mb-10">mb-10</div>
+      <div class="border bg-black text-white ml-12">ml-12</div>
+      <div class="border bg-black text-white mr-14">mr-14</div>
+    </div>
+    
+    
+    
+    <!-- Arbitrary/Custom Spacing -->
+    
+    <h1 class="text-center text-teal-500 text-3xl my-4">Aribitrary Values</h1>
+
+    <div class="bg-amber-300">
+      <div class="border bg-black text-white m-[3px]">m-[3px]</div>
+      <div class="border bg-black text-white mx-[7px]">mx-[7px]</div>
+      <div class="border bg-black text-white my-[11px]">my-[11px]</div>
+      <div class="border bg-black text-white mt-[15px]">mt-[15px]</div>
+      <div class="border bg-black text-white mb-[19px]">mb-[19px]</div>
+      <div class="border bg-black text-white ml-[23px]">ml-[23px]</div>
+      <div class="border bg-black text-white mr-[27px]">mr-[27px]</div>
+    </div>
+
+
+   
+    
+    <!-- Padding -->
+    <!-- https://tailwindcss.com/docs/padding -->
+    
+    <h1 class="underline my-5 text-center">Padding</h1>
+
+    <div class="bg-violet-400">
+      <div class="border bg-black text-white p-2">p-2</div>
+      <div class="border bg-black text-white px-4">px-4</div>
+      <div class="border bg-black text-white py-6">py-6</div>
+      <div class="border bg-black text-white pt-8">pt-8</div>
+      <div class="border bg-black text-white pb-10">pb-10</div>
+      <div class="border bg-black text-white pl-12">pl-12</div>
+      <div class="border bg-black text-white pr-14">pr-14</div>
+    </div>
+  
+
+    <!-- https://tailwindcss.com/docs/space -->
+    <!-- Space Between X -->
+   <h3 class="text-center text-3xl my-5">Space Between X</h3>
+
+   <div class="flex space-x-4 bg-pink-300 p-4">
+      <div class="bg-pink-600 text-white p-3">1</div>
+      <div class="bg-pink-600 text-white p-3">2</div>
+      <div class="bg-pink-600 text-white p-3">3</div>
+      <div class="bg-pink-600 text-white p-3">4</div>
+   </div>
+ 
+    <!-- Space Between Y -->
+    <h3 class="text-center text-3xl underline my-5">Space Between Y</h3>
+
+    <div class="flex flex-col space-y-4 bg-pink-300 p-4">
+      <div class="bg-pink-600 text-white p-3">1</div>
+      <div class="bg-pink-600 text-white p-3">2</div>
+      <div class="bg-pink-600 text-white p-3">3</div>
+      <div class="bg-pink-600 text-white p-3">4</div>
+    </div>
+
+
+  
+  </body>
+</html>
